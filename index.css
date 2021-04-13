@@ -55,12 +55,12 @@ article {
     }
 
     .newsImage {
-	height: 50px;
+	height: 100px;
 	overflow: hidden;
     }
 
     .newsImage img {
-
+	width: 50%;
     }
     
     .newsContent {
