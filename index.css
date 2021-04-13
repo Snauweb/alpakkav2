@@ -1,3 +1,85 @@
+:root {
+    --brown-red: #b33300;
+}
+
 h1 {
-    color: #b33300;
+    color: var(--brown-red);
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+.mainColumn {
+    width: 70vw;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.newsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+}
+
+.newsItem {
+    display: flex;
+}
+
+@media (min-width: 700px) {
+    .newsImage {
+	width: 200px;
+    }
+    
+    .newsContent {
+	margin-left: 10%;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .newsItem {
+	flex-direction: column;
+    }
+
+    .newsImage {
+	height: 100px;
+	overflow: hidden;
+    }
+
+    .newsImage img {
+	width: 50%;
+    }
+    
+    .newsContent {
+	width: 100%
+    }
+}
+.cropped1 {
+    width: 180px; /* width of container */
+    height: 180px; /* height of container */
+}
+.cropped2 {
+    width: 180px; /* width of container */
+    height: 180px; /* height of container */
+}
+.cropped3 {
+    width: 180px; /* width of container */
+    height: 180px; /* height of container */
+}
+.cropped4 {
+    width: 180px; /* width of container */
+    height: 180px; /* height of container */
 }
