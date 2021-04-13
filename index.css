@@ -1,3 +1,20 @@
+:root {
+    --brown-red: #b33300;
+}
+
 h1 {
-    color: #b33300;
+    color: var(--brown-red);
+}
+
+.mainColumn {
+    width: 70vw;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+}
+
+body {
+    background-color: #eeeeee;
 }
