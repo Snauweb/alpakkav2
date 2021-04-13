@@ -47,6 +47,30 @@ main {
     padding-right: 50px;
 }
 
+/* Mid section */
+.midContent {
+    display: flex;
+    height: 300px;
+}
+
+.welcomeText {
+    width: 70%;
+}
+
+.alpakka-beholder {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.tilfeldig-alpakka {
+    display: flex;
+}
+
+/* news section */
+
 .newsContainer {
     display: flex;
     flex-direction: column;
@@ -109,4 +133,6 @@ article {
     width: 180px; 
     height: 180px;
 }
+
 */
+
