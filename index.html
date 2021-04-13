@@ -1,6 +1,7 @@
 <head>
   <title> Alpakka 2.0 </title>
   <meta charset="utf-8" />
+  <script type='text/javascript' src='index.js'></script>
   <link rel="stylesheet" href="index.css">
 </head>
 
@@ -27,11 +28,23 @@
       <h1> Velkommen til verdens beste alpakkaside. Klikk på en alpakka for å bli bedre kjent med den!</h1>
 
       <br>
-      
-      <h2> Alpakkaer i særklasse </h2>
-      <p class="mainPageText">
-	Velkommen til alpakkav2, det kuleste stedet å være for alpakker! Alpakkaene som er sluppet inn her er de noen av de flotteste dyrene i sitt slag, men vi har plass til flere! Om du tror du er en verdig alpakka, så send oss en søknad under!
-      </p>
+
+      <div class="midContent">
+	<div class="welcomeText">
+	  <h2> Alpakkaer i særklasse </h2>
+	  <p class="mainPageText">
+	    Velkommen til alpakkav2, det kuleste stedet å være for alpakker! Alpakkaene som er sluppet inn her er de noen av de flotteste dyrene i sitt slag, men vi har plass til flere! Om du tror du er en verdig alpakka, så send oss en søknad under!
+	  </p>
+	</div>
+	
+	<!-- Tilfeldig alpakka -->
+	<div class='alpakka-beholder'>
+	  <h3> Trykk på knappen for en tilfeldig alpakka </h3>
+	  <button onclick='setRandomAlpacca(this.parentNode)'>Klikk</button>
+	  <img class='tilfeldig-alpakka' src='./images/tilfeldigalpakka.png' />
+	</div>
+	<!-- Slutt tilfeldig alpakka -->
+      </div>
 
       <h2> Alpakkanytt </h2>
       <div class="newsContainer">
