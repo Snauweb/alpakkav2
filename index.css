@@ -4,10 +4,11 @@ h1 {
 
 .alpakka-beholder {
     max-height: 20em;
+    display: flexbox;
     overflow: hidden;
-    display: inline-block;
 }
 
 .tilfeldig-alpakka {
     max-width: 20em;
+    display: flex;
 }
