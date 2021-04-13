@@ -1,3 +1,13 @@
 h1 {
     color: #b33300;
 }
+
+.alpakka-beholder {
+    max-height: 20em;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.tilfeldig-alpakka {
+    max-width: 20em;
+}
