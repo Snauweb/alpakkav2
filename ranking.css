@@ -18,21 +18,37 @@ p {
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: bold;
 	/*
 	transform: rotate(180deg);
 	*/
 }
 
-.place {
-	/*
-	margin-left: 10;
-	margin-right: 10;
-	*/
+.place1 {
+	background-color: Aquamarine;
+	position: relative;
+	height:500px;
+	width: 250px;
 }
+
+.place2 {
+	background-color: LightSeaGreen;
+	position: relative;
+	height:700px;
+	width: 250px;
+}
+
+.place3 {
+	background-color: Turquoise;
+	position: relative;
+	height:350px;
+	width: 250px;
+}
+
+.blank {
+	width: 50px;
+}
+
 .placeName {
-	/*
 	transform: rotate(90deg);
-	*/
-	margin-left: auto;
-	margin-right: auto;
 }
