@@ -19,6 +19,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: bold;
+	align-items: flex-end;
 	/*
 	transform: rotate(180deg);
 	*/
@@ -50,4 +51,10 @@ p {
 }
 
 .placeName {
+	position: relative;
+	top: 90px;
 	transform: rotate(90deg);
+	color: white;
+	font-size:80px;
+	font-family:"Helvetica";
+}
