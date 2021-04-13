@@ -1,23 +1,38 @@
 body {
-  background-color: Teal;
+	background-color: Teal;
 }
 
 h1 {
-  color: white;
-  text-align: center;
+	color: white;
+	text-align: center;
 }
 
 p {
-  font-family: Helvetica;
-  font-size: 20px;
-  text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: center;
 }
 
-stage {
-  display: flex;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  flex-direction: row-reverse;
+.stage {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*
+	transform: rotate(180deg);
+	*/
+}
+
+.place {
+	/*
+	margin-left: 10;
+	margin-right: 10;
+	*/
+}
+.placeName {
+	/*
+	transform: rotate(90deg);
+	*/
+	margin-left: auto;
+	margin-right: auto;
 }
