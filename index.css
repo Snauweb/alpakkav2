@@ -60,6 +60,11 @@ article {
     display: flex;
 }
 
+.newsImage img {
+    width: 100%;
+}
+
+
 @media (min-width: 700px) {
     .newsImage {
 	width: 200px;
@@ -80,10 +85,6 @@ article {
     .newsImage {
 	height: 100px;
 	overflow: hidden;
-    }
-
-    .newsImage img {
-	width: 50%;
     }
     
     .newsContent {
